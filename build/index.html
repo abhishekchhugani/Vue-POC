@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>My First Vue App </title>
+</head>
+
+<body>
+  <div id="app">
+    <nav-bar></nav-bar>
+    <div id="main">
+      <section v-for="paras in new Array(10)">
+        <p>{{ freeText }}</p>
+      </section>
+      <section class="carousel-container">
+        <p class="carousel-title">My Cool Carousel</p>
+        <div id="carousel"></div>
+      </section>
+    </div>
+  </div>
+  <script src="./bundle.js"></script>
+</body>
+
+</html>

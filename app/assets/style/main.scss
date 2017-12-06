@@ -1,0 +1,45 @@
+@import "./header/style";
+body {
+  margin: 0;
+  #main {
+    padding: 24px;
+    padding-top: 64px;
+    .carousel-container {
+      width : 80%;
+      margin: 0 auto;
+      border: 1px solid midnightblue;
+      background: aqua;
+      border-radius: 8px;
+      padding: 48px;
+      .carousel-title {
+        color: red;
+        font-size: 32px;
+        font-weight: bold;
+        font-family: fantasy;
+        margin: 16px auto;
+      }
+    }
+    .VueCarousel-slide {
+      position: relative;
+      // background: #42b983;
+      color: #fff;
+      font-family: Arial;
+      font-size: 24px;
+      text-align: center;
+      min-height: 100px;
+      &:nth-child(even) {
+        background: turquoise;
+      }
+      &:nth-child(odd) {
+        background: mediumslateblue;
+      }
+    }
+
+    .label {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}

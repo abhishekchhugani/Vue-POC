@@ -1,0 +1,28 @@
+{
+  "name": "Vue_POC",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --progress --display-error-details",
+    "start": "webpack-dev-server --progress --colors --inline --content-base build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "file-loader": "^1.1.5",
+    "lorem-ipsum": "^1.0.4",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.5"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "vue": "^2.5.9",
+    "vue-carousel": "^0.6.5"
+  }
+}
